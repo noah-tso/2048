@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 600px;
+  height: 600px;
+  border: 8px solid rgb(55 65 81);
+  background-color: rgb(55 65 81);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+.tile {
+  width: 146px;
+  height: 146px;
+  border: 6px solid rgb(55 65 81);
+  background-color: rgb(148 163 184);
+  border-radius: 8px;
+}
